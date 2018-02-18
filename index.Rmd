@@ -1,36 +1,73 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
-date: "`r Sys.Date()`"
+title: "Marine Biodiversity Workshop: from the Field to the Cloud"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: [style/book.bib, style/packages.bib]
+bibliography: [style/zotero_mbon-p2p.bib, style/packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: marinebon/p2p-brazil-workshop
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
-# Prerequisites
-
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
-
-The **bookdown** package can be installed from CRAN or Github:
-
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
-
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
-
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
-
-```{r include=FALSE}
+```{r include=FALSE, eval=F}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+), 'style/packages.bib')
 ```
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+opts_chunk$set(echo = F)
+```
+
+# Overview
+
+- Project: Pole-to-Pole (P2P) Marine Biodiversity Observation Network ([MBON](marinebon.org)) & Americas Global Earth Observation System of Systems ([AmeriGEOSS](https://www.amerigeoss.org))
+- Location: Praia do Cabelo Gordo, São Sebastião, Brasil
+- Dates: August 6-10, 2018
+
+```{r, out.width = '80%', fig.align = 'center', fig.cap="Locations of the workshop in São José dos Campos and CEBIMar."}
+include_graphics("figs/map.png")
+```
+
+## Objectives
+
+This workshop will engage participants in marine biodiversity activities in the field and behind the computer that promote a community of best practices.
+
+1. Collect field data across multiple habitats: rocky intertidal and sandy beaches habitats (SARCE).
+1. Manipulate tabular and spatial data for standardized data formats, such as Darwin Core, while controlling for quality
+1. Populate datasets to OBIS, using tools for data discovery, analysis, and sharing
+1. Build species distribution models by correlating satellite derived environmental data with biological observations to predict across seascapes
+1. Learn how to use data science tools (R, Rmarkdown, Github) for producing reproducible research documents with interactive visualizations onto the web.
+
+## Agenda
+
+```{r}
+#knitr::opts_knit$get('rmarkdown.pandoc.to') # html4
+
+agenda <- readxl::read_excel("data/agenda.xlsx") %>%
+  select(Time, Description)
+
+# detect within-row headers by rows in first column Time that begin with "Aug "
+i_groups <- which(str_detect(agenda$Time, "^Aug "))
+agenda_nongroups <- slice(agenda, -i_groups)
+agenda_groups    <- slice(agenda, i_groups) %>% .$Time
+i_group_rows <- diff(c(i_groups, nrow(agenda))) - 1
+groups_i <- setNames(i_group_rows, agenda_groups)
+
+kable(agenda_nongroups, "html", caption = "Agenda") %>%
+  kable_styling("striped", full_width = T, font_size = 11) %>%
+  group_rows(index = groups_i)
+```
+
+
+## Resources
+
+- [Ocean Biogeographic Information System (OBIS) - Manual](http://www.iobis.org/manual/)
+- [R for Data Science](http://r4ds.had.co.nz/)
+- [Spatial Data Analysis and Modeling with R](http://rspatial.org)
+- [@hijmans_species_2017]
