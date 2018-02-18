@@ -47,8 +47,6 @@ This workshop will engage participants in marine biodiversity activities in the 
 ## Agenda
 
 ```{r}
-#knitr::opts_knit$get('rmarkdown.pandoc.to') # html4
-
 agenda <- readxl::read_excel("data/agenda.xlsx") %>%
   select(Time, Description)
 
@@ -59,7 +57,7 @@ agenda_groups    <- slice(agenda, i_groups) %>% .$Time
 i_group_rows <- diff(c(i_groups, nrow(agenda))) - 1
 groups_i <- setNames(i_group_rows, agenda_groups)
 
-kable(agenda_nongroups, "html", caption = "Agenda") %>%
+kable(agenda_nongroups, "html", caption = "Agenda (draft)") %>%
   kable_styling("striped", full_width = T, font_size = 11) %>%
   group_rows(index = groups_i)
 ```
