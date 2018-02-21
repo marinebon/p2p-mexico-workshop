@@ -45,6 +45,20 @@
 
 
 
+<script src="libs/htmlwidgets-1.0/htmlwidgets.js"></script>
+<link href="libs/leaflet-0.7.7/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-0.7.7/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<link href="libs/leaflet-label-0.2.2/leaflet.label.css" rel="stylesheet" />
+<script src="libs/leaflet-label-0.2.2/leaflet.label.js"></script>
+<script src="libs/Proj4Leaflet-0.7.2/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet-0.7.2/proj4leaflet.js"></script>
+<script src="libs/leaflet-binding-1.1.0.9000/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.0.27/leaflet-providers.js"></script>
+<script src="libs/leaflet-providers-plugin-1.1.0.9000/leaflet-providers-plugin.js"></script>
+<link href="libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.css" rel="stylesheet" />
+<script src="libs/leaflet-awesomemarkers-2.0.3/leaflet.awesome-markers.min.js"></script>
+<link href="libs/fontawesome-4.7.0/font-awesome.min.css" rel="stylesheet" />
 
 
 
@@ -65,9 +79,10 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="#overview"><i class="fa fa-check"></i><b>1</b> Overview</a><ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="#objectives"><i class="fa fa-check"></i><b>1.1</b> Objectives</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="#agenda"><i class="fa fa-check"></i><b>1.2</b> Agenda</a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="#resources"><i class="fa fa-check"></i><b>1.3</b> Resources</a></li>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="#map"><i class="fa fa-check"></i><b>1.1</b> Map</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="#objectives"><i class="fa fa-check"></i><b>1.2</b> Objectives</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="#agenda"><i class="fa fa-check"></i><b>1.3</b> Agenda</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="#resources"><i class="fa fa-check"></i><b>1.4</b> Resources</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -99,14 +114,13 @@
 <li>Location: Praia do Cabelo Gordo, São Sebastião, Brasil</li>
 <li>Dates: August 6-10, 2018</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
-<img src="figs/map.png" alt="Locations of the workshop in São José dos Campos and CEBIMar." width="80%" />
-<p class="caption">
-Figure 1.1: Locations of the workshop in São José dos Campos and CEBIMar.
-</p>
+<div id="map" class="section level2">
+<h2><span class="header-section-number">1.1</span> Map</h2>
+<div id="htmlwidget-e147e3c889ca902beeb4" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e147e3c889ca902beeb4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"attributionControl":false},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":0.5,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false}]},{"method":"addAwesomeMarkers","args":[[-23.432513,-23.206662,-23.826741],[-46.478074,-45.861196,-45.423812],{"icon":["plane","rocket","home"],"markerColor":["green","orange","red"],"iconColor":"black","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"fa"},null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,["Guarulhos","INPE","CEBIMar"],{"clickable":false,"noHide":true,"direction":"right","opacity":1,"offset":[12,-15],"textsize":"10px","textOnly":false,"style":null,"zoomAnimation":true,"className":""},null]}],"limits":{"lat":[-23.826741,-23.206662],"lng":[-46.478074,-45.423812]},"setView":[[-23.4886386666667,-45.9210273333333],9,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="objectives" class="section level2">
-<h2><span class="header-section-number">1.1</span> Objectives</h2>
+<h2><span class="header-section-number">1.2</span> Objectives</h2>
 <p>This workshop will engage participants in marine biodiversity activities in the field and behind the computer that promote a community of best practices.</p>
 <ol style="list-style-type: decimal">
 <li>Collect field data across multiple habitats: rocky intertidal and sandy beaches habitats (SARCE).</li>
@@ -117,7 +131,7 @@ Figure 1.1: Locations of the workshop in São José dos Campos and CEBIMar.
 </ol>
 </div>
 <div id="agenda" class="section level2">
-<h2><span class="header-section-number">1.2</span> Agenda</h2>
+<h2><span class="header-section-number">1.3</span> Agenda</h2>
 <table class="table table-striped" style="font-size: 11px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:unnamed-chunk-3">Table 1.1: </span>Agenda (draft)
@@ -524,7 +538,7 @@ Adjourn
 </table>
 </div>
 <div id="resources" class="section level2">
-<h2><span class="header-section-number">1.3</span> Resources</h2>
+<h2><span class="header-section-number">1.4</span> Resources</h2>
 <ul>
 <li><a href="http://www.iobis.org/manual/">Ocean Biogeographic Information System (OBIS) - Manual</a></li>
 <li><a href="http://r4ds.had.co.nz/">R for Data Science</a></li>

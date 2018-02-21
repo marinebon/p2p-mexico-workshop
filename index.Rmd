@@ -21,6 +21,8 @@ knitr::write_bib(c(
 library(tidyverse)
 library(knitr)
 library(kableExtra)
+library(leaflet)
+library(sf)
 opts_chunk$set(echo = F)
 ```
 
@@ -30,9 +32,37 @@ opts_chunk$set(echo = F)
 - Location: Praia do Cabelo Gordo, São Sebastião, Brasil
 - Dates: August 6-10, 2018
 
-```{r, out.width = '80%', fig.align = 'center', fig.cap="Locations of the workshop in São José dos Campos and CEBIMar."}
-include_graphics("figs/map.png")
+## Map
+
+```{r}
+#```{r, out.width = '80%', fig.align = 'center', fig.cap="Locations of the workshop in São José dos Campos and CEBIMar."}
+#include_graphics("figs/map.png")
+#```
+
+pts <- tribble(
+        ~lon,       ~lat,       ~name,    ~icon,   ~color,          ~description,                                ~comment,
+  -46.478074, -23.432513, "Guarulhos",  "plane",  "green",   "São Paulo airport",                                      NA,
+  -45.861196, -23.206662,      "INPE", "rocket", "orange", "São José dos Campos", "venue for the AmeriGEOSS Week meeting",
+  -45.423812, -23.826741,   "CEBIMar",   "home",    "red",       "São Sebastião", "host institution for the P2P workshop") %>%
+  st_as_sf(coords = c("lon", "lat"), crs = 4326)
+
+ctr <- pts$geometry %>% st_geometrycollection() %>% st_centroid() %>% st_coordinates()
+
+icons <- awesomeIcons(
+  icon = pts$icon,
+  iconColor = 'black',
+  library = 'fa',
+  markerColor = pts$color)
+
+
+#options=c(leafletOptions(), attributionControl=F, zoomControl=F)) %>% 
+leaflet(pts, options = leafletOptions(attributionControl=F)) %>%
+  addProviderTiles(provider = providers$Esri.NatGeoWorldMap, options = tileOptions(opacity=0.5)) %>% #  $Esri.NatGeoWorldMap
+  #addProviderTiles(provider = providers$Stamen.TonerLite, options = tileOptions(opacity=0.5)) %>%
+  addAwesomeMarkers(icon = icons, label= ~name, labelOptions = labelOptions(noHide = T)) %>%
+  setView(ctr[,"X"], ctr[,"Y"], zoom=9)
 ```
+
 
 ## Objectives
 
