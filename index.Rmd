@@ -1,5 +1,5 @@
 --- 
-title: "Marine Biodiversity Workshop: from the Field to the Cloud"
+title: "Marine Biodiversity Workshop: from the Sea to the Cloud"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -26,19 +26,36 @@ library(sf)
 opts_chunk$set(echo = F)
 ```
 
-# Overview
+Pole-to-Pole [MBON](marinebon.org) & [AmeriGEOSS](https://www.amerigeoss.org) <br>
+Location: Praia do Segredo, São Sebastião, Brasil <br>
+Dates: August 6-10, 2018
 
-- Project: Pole-to-Pole (P2P) Marine Biodiversity Observation Network ([MBON](marinebon.org)) & Americas Global Earth Observation System of Systems ([AmeriGEOSS](https://www.amerigeoss.org))
-- Location: Praia do Cabelo Gordo, São Sebastião, Brasil
-- Dates: August 6-10, 2018
+## Objectives
 
-## Map
+This workshop will engage participants in marine biodiversity activities in the field and behind the computer that promote a community of best practices. Specifically, the activities will be to:
+
+1. Collect field data across multiple habitats: rocky intertidal and sandy beaches habitats;
+1. Manipulate tabular and spatial data for standardized data formats, such as Darwin Core, while controlling for quality;
+1. Publish datasets to OBIS, using tools for sharing data;
+1. Train on data science tools (R, Rmarkdown, Github) to mine data, conduct discovery and analysis, and produce reproducible research documents with interactive visualizations onto the web.
+
+![](figs/CEBIMar_pic.png)
+
+## Logistics
+
+August 6-10, 2018 (+2 days for travel)
+
+- Venue, August 6: INPE <br>
+  Opening of AmeriGEOSS Week <br>
+  Instituto Nacional de Pesquisas Espaciais (INPE) <br>
+  São José dos Campos, São Paulo, Brasil
+
+- Venue, August 7-10: CEBIMar <br>
+  Centro de Biologia Marinha ([CEBIMar](http://cebimar.usp.br/index.php/en/)) - Universidade de São Paulo <br>
+  Praia do Segredo - São Sebastião <br> 
+  São Paulo, Brasil
 
 ```{r}
-#```{r, out.width = '80%', fig.align = 'center', fig.cap="Locations of the workshop in São José dos Campos and CEBIMar."}
-#include_graphics("figs/map.png")
-#```
-
 pts <- tribble(
         ~lon,       ~lat,       ~name,    ~icon,   ~color,          ~description,                                ~comment,
   -46.478074, -23.432513, "Guarulhos",  "plane",  "green",   "São Paulo airport",                                      NA,
@@ -54,29 +71,73 @@ icons <- awesomeIcons(
   library = 'fa',
   markerColor = pts$color)
 
-
-#options=c(leafletOptions(), attributionControl=F, zoomControl=F)) %>% 
 leaflet(pts, options = leafletOptions(attributionControl=F)) %>%
-  addProviderTiles(provider = providers$Esri.NatGeoWorldMap, options = tileOptions(opacity=0.5)) %>% #  $Esri.NatGeoWorldMap
-  #addProviderTiles(provider = providers$Stamen.TonerLite, options = tileOptions(opacity=0.5)) %>%
+  #addProviderTiles(provider = providers$Stamen.TonerLite) %>%
+  addProviderTiles(provider = providers$Esri.NatGeoWorldMap, options = tileOptions(opacity=0.5)) %>%
   addAwesomeMarkers(icon = icons, label= ~name, labelOptions = labelOptions(noHide = T)) %>%
   setView(ctr[,"X"], ctr[,"Y"], zoom=9)
 ```
 
 
-## Objectives
+## Organizers
 
-This workshop will engage participants in marine biodiversity activities in the field and behind the computer that promote a community of best practices.
+-	Pole-to-Pole Marine Biodiversity Observation Network (MBON) of the Americas - P2P MBON
+-	Institute for Marine Remote Sensing (ImaRS), College of Marine Science, University of South Florida, St. Petersburg, Florida, USA
+-	Centro de Biologia Marinha (CEBIMar) & Instituto de Biociências (IB) - Universidade de São Paulo, Brazil
+-	AmeriGEOSS - Group on Earth Observations
+-	Ocean Biogeographic Information System (OBIS)
 
-1. Collect field data across multiple habitats: rocky intertidal and sandy beaches habitats (SARCE).
-1. Manipulate tabular and spatial data for standardized data formats, such as Darwin Core, while controlling for quality
-1. Populate datasets to OBIS, using tools for data discovery, analysis, and sharing
-1. Build species distribution models by correlating satellite derived environmental data with biological observations to predict across seascapes
-1. Learn how to use data science tools (R, Rmarkdown, Github) for producing reproducible research documents with interactive visualizations onto the web.
+## Workshop rationale
 
-## Agenda
+This workshop is a first step for the implementation of the P2P network. It addresses capacity building and science development for conservation and management of living resources, to sustain critical ecosystem services for communities in the region. The workshop participants will develop standard protocols for field data collection, data formatting and publishing, following international standards (e.g. Darwin Core - DwC). Efforts will also focus on data discovery and analysis using tools provided by the Ocean Biogeographic Information System (OBIS) and the GEO BON MBON.
+P2P incorporates the biodiversity priorities of various GEO initiatives, including Blue Planet and AmeriGEOSS, and coordinates with IOC/UNESCO (GOOS and OBIS), and other national and international groups to serve the broadest possible community. This network will help nations and regions to improve conservation planning and environmental impact mitigation, serve the scientific community, and satisfy commitments to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDG’s).
+
+The P2P workshop:
+
+- enhances coordination of data collection among nations;
+- improves the collection of harmonized data, developing data standards and methodologies for data management and dissemination without compromising national concerns;
+- integrates biodiversity information with physical and chemical data over time (status and trends); and
+- generates products needed for informed management of the ocean.
+
+The workshop targets investigators and resource managers dedicated to studying and conserving biodiversity of invertebrates in two important coastal habitats: rocky shore intertidal zone and sandy beaches. This activity targets participants from all nations in the Americas, from pole to pole.
+
+## Instructors
+- Eduardo Klein (OBIS) - Darwin Core (DwC) and OBIS tools
+- Ben Best (Ecoquants) - Data visualization and analysis tools using R software 
+- Patricia Miloslavich (GOOS) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
+- Emmett Duffy (MarineGEO) - Predation and fouling community development, exotic invasions and biodiversity - an experimental approach.
+- Frank Muller-Karger (USF) - Satellite remote sensing
+- Maria Kavanaugh (OSU) - Satellite biogeography (seascape maps)
+- Maikon di Domenico (Universidade Federal do Paraná) - sandy beaches*
+- Pete Raimondi (UCSC – PISCO / MARINe)*
+(*waiting for confirmation)
+
+## Required workshop materials
+
+- Participants must bring a laptop computer with the following programes installed (with latest version, as of 2018-03-20):
+    - [R](https://cran.r-project.org) (3.4.4)
+    - [RStudio](https://www.rstudio.com/products/rstudio/download/#download) (1.1.442)
+    - [Git](https://git-scm.com/downloads) (2.16.2)
+    
+    These are available for Windows, Mac or Linux operating systems.
+
+- Install additional packages by running the following line of code in your R terminal:
+
+```r
+source("https://github.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R")
+```
+
+- [SARCE sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
+  <!---The past experience could be replicated (and it will be desirable if we want to make comparison in time) see the SARCE site and it protocols. The SARCE data will be in OBIS after the next harvest. --->
+
+- Full snorkeling gear
+
+![](figs/p2p-workshop-materials.png)
+
+## Preliminary Agenda
 
 ```{r}
+options(knitr.kable.NA = '')
 agenda <- readxl::read_excel("data/agenda.xlsx") %>%
   select(Time, Description)
 
@@ -93,9 +154,31 @@ kable(agenda_nongroups, "html", caption = "Agenda (draft)") %>%
 ```
 
 
+## Eligibility
+
+The workshop will be limited to 15 participants. Selection of participants will be based on survey results and their ability and willingness to openly contribute and share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the P2P network. 
+
+## Survey
+
+In order to partcipate, you will need to complete survey below (be sure to scroll down within frame), or by visiting the survey directly at https://goo.gl/forms/AIQ9djKDfyfpKuaE3, before the survey deadline of **May 1st, 2018**.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8kMPaCnFBPP4P3Hk5F6VbImektTDo9LNQZUUxuYUPxIlo_Q/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+## Confirmation
+
+You will recieve notice of acceptance by May 15th, 2018 and need to confirm your participation in the P2P workshop by contacting Enrique Montes (emontesh@mail.usf.edu) and Cara Estes (cestes@mauil.usf.edu) before the confirmation deadline of **June 1st, 2018**. 
+
+If you are not a Brazilian citizen you will need to:
+
+1. Obtain a yellow fever vaccination certificate
+2. Send us a copy of the first page of your passport
+3. Apply for a visa (required for US and Canadian citizens only)
+
+The workshop will provide travel support for a selected number of participants. If you wish to apply for travel support please provide a detailed budget of expenses you will incur including airfare, ground transportation and per diem amounts.
+
 ## Resources
 
 - [Ocean Biogeographic Information System (OBIS) - Manual](http://www.iobis.org/manual/)
 - [R for Data Science](http://r4ds.had.co.nz/)
 - [Spatial Data Analysis and Modeling with R](http://rspatial.org)
-- [@hijmans_species_2017]
+- [Species Distribution Modeling with R](https://cran.r-project.org/web/packages/dismo/vignettes/sdm.pdf)
