@@ -137,6 +137,7 @@ source("https://github.com/marinebon/p2p-brazil-workshop/master/scripts/install-
 ## Preliminary Agenda
 
 ```{r}
+# TODO: fix table for pdf output: "Too deeply nested" error with bullets inside cells
 options(knitr.kable.NA = '')
 agenda <- readxl::read_excel("data/agenda.xlsx") %>%
   select(Time, Description)
