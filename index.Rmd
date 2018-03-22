@@ -30,6 +30,8 @@ Pole-to-Pole [MBON](marinebon.org) & [AmeriGEOSS](https://www.amerigeoss.org) <b
 Location: Praia do Segredo, São Sebastião, Brasil <br>
 Dates: August 6-10, 2018
 
+# Overview
+
 ## Objectives
 
 This workshop will engage participants in marine biodiversity activities in the field and behind the computer that promote a community of best practices. Specifically, the activities will be to:
@@ -137,21 +139,30 @@ source("https://github.com/marinebon/p2p-brazil-workshop/master/scripts/install-
 ## Preliminary Agenda
 
 ```{r}
-# TODO: fix table for pdf output: "Too deeply nested" error with bullets inside cells
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
 options(knitr.kable.NA = '')
 agenda <- readxl::read_excel("data/agenda.xlsx") %>%
   select(Time, Description)
 
 # detect within-row headers by rows in first column Time that begin with "Aug "
-i_groups <- which(str_detect(agenda$Time, "^Aug "))
+i_groups         <- which(str_detect(agenda$Time, "^Aug "))
 agenda_nongroups <- slice(agenda, -i_groups)
 agenda_groups    <- slice(agenda, i_groups) %>% .$Time
-i_group_rows <- diff(c(i_groups, nrow(agenda))) - 1
-groups_i <- setNames(i_group_rows, agenda_groups)
+i_group_rows     <- diff(c(i_groups, nrow(agenda))) - 1
+groups_i         <- setNames(i_group_rows, agenda_groups)
 
-kable(agenda_nongroups, "html", caption = "Agenda (draft)") %>%
-  kable_styling("striped", full_width = T, font_size = 11) %>%
-  group_rows(index = groups_i)
+if (is_latex_output()){
+  kable(agenda_nongroups, "latex") %>%
+    group_rows(index = groups_i) %>%
+    column_spec(1, width = "0.5in")
+} else {
+  kable(agenda_nongroups, "html") %>%
+    kable_styling("striped", full_width = T, font_size = 11) %>%
+    group_rows(index = groups_i)
+}
 ```
 
 
