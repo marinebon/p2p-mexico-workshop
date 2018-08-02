@@ -16,12 +16,12 @@ packages <- list(
     "uuid"),
   rOpenSci = c("XMLSchema", "SSOAP"),
   GitHub = c(
-    "ropensci/rerddap", "rmendels/rerddapXtracto",
+    "ropensci/plotdap", "ropensci/rerddap", "rmendels/rerddapXtracto",
     "iobis/obistools", "iobis/robis",
     "ropensci/taxize", "ropensci/taxizesoap",
     "ropensci/finch"))
 
-for (type in names(packages)){
+for (type in names(packages)){ # type = names(packages)[3]
   
   packages_installed <- rownames(installed.packages())
   
@@ -34,7 +34,7 @@ for (type in names(packages)){
     pkgs_install <- setdiff(packages[[type]], packages_installed)
   }
   
-  if (length(pkgs_install) == 0 ) next
+  if (length(pkgs_install) == 0) next
   
   message(type, " packages to install: ", paste(pkgs_install, collapse=", "))
   switch(
