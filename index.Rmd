@@ -126,7 +126,7 @@ The workshop targets investigators and resource managers dedicated to studying a
 - Install additional packages by running the following line of code in your R terminal:
 
 ```r
-source("https://github.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R")
+source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R")
 ```
 
 - [SARCE sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
