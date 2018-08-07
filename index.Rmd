@@ -32,6 +32,42 @@ Dates: August 6-10, 2018
 
 # Overview
 
+## Agenda
+
+- [P2P Workshop Agenda - google sheet](https://docs.google.com/spreadsheets/d/1QMHModieileMfDiyqffy3lD7usrLJ3hdWvqwj9rfNnw/edit#gid=0)
+
+- [P2P Workshop Notes - google doc](https://docs.google.com/document/d/1JJ-odaEEpDvV5MrNzRXPVBfJ5xb9abJYHDvllkgzqjM/edit?usp=sharing)
+
+- [P2P using OBIS - OceanTeacher.org](https://classroom.oceanteacher.org/course/view.php?id=349)
+
+
+```{r, eval=F}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+options(knitr.kable.NA = '')
+agenda <- readxl::read_excel("data/agenda.xlsx") %>%
+  select(Time, Description)
+
+# detect within-row headers by rows in first column Time that begin with "Aug "
+i_groups         <- which(str_detect(agenda$Time, "^Aug "))
+agenda_nongroups <- slice(agenda, -i_groups)
+agenda_groups    <- slice(agenda, i_groups) %>% .$Time
+i_group_rows     <- diff(c(i_groups, nrow(agenda))) - 1
+groups_i         <- setNames(i_group_rows, agenda_groups)
+
+if (is_latex_output()){
+  kable(agenda_nongroups, "latex") %>%
+    group_rows(index = groups_i) %>%
+    column_spec(1, width = "0.5in")
+} else {
+  kable(agenda_nongroups, "html") %>%
+    kable_styling("striped", full_width = T, font_size = 11) %>%
+    group_rows(index = groups_i)
+}
+```
+
 ## Objectives
 
 This workshop will engage participants in marine biodiversity activities in the field and behind the computer that promote a community of best practices. Specifically, the activities will be to:
@@ -135,36 +171,6 @@ source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/s
 - Full snorkeling gear
 
 ![](figs/p2p-workshop-materials.png)
-
-## Preliminary Agenda
-
-```{r}
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-
-options(knitr.kable.NA = '')
-agenda <- readxl::read_excel("data/agenda.xlsx") %>%
-  select(Time, Description)
-
-# detect within-row headers by rows in first column Time that begin with "Aug "
-i_groups         <- which(str_detect(agenda$Time, "^Aug "))
-agenda_nongroups <- slice(agenda, -i_groups)
-agenda_groups    <- slice(agenda, i_groups) %>% .$Time
-i_group_rows     <- diff(c(i_groups, nrow(agenda))) - 1
-groups_i         <- setNames(i_group_rows, agenda_groups)
-
-if (is_latex_output()){
-  kable(agenda_nongroups, "latex") %>%
-    group_rows(index = groups_i) %>%
-    column_spec(1, width = "0.5in")
-} else {
-  kable(agenda_nongroups, "html") %>%
-    kable_styling("striped", full_width = T, font_size = 11) %>%
-    group_rows(index = groups_i)
-}
-```
-
 
 ## Eligibility
 
