@@ -166,7 +166,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.4" data-path="git-github.html"><a href="git-github.html#create-index.html"><i class="fa fa-check"></i><b>2.4</b> Create <code>index.html</code></a></li>
 <li class="chapter" data-level="2.5" data-path="git-github.html"><a href="git-github.html#create-rstudio-project-with-git-repository"><i class="fa fa-check"></i><b>2.5</b> Create RStudio Project with Git Repository</a></li>
 <li class="chapter" data-level="2.6" data-path="git-github.html"><a href="git-github.html#create-index.rmd-in-rmarkdown"><i class="fa fa-check"></i><b>2.6</b> Create <code>index.Rmd</code> in Rmarkdown</a></li>
-<li class="chapter" data-level="2.7" data-path="git-github.html"><a href="git-github.html#merge-conflicts"><i class="fa fa-check"></i><b>2.7</b> Merge Conflicts</a></li>
+<li class="chapter" data-level="2.7" data-path="git-github.html"><a href="git-github.html#exercise-gils-israel-sites-dataset"><i class="fa fa-check"></i><b>2.7</b> Exercise: Gil’s Israel Sites Dataset</a><ul>
+<li class="chapter" data-level="2.7.1" data-path="git-github.html"><a href="git-github.html#task-provide-excel-cell-ranges-for-how-you-would-divide-data-into-tables"><i class="fa fa-check"></i><b>2.7.1</b> Task: Provide Excel cell ranges for how you would divide data into tables?</a></li>
+</ul></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -190,6 +192,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="git-github" class="section level1">
 <h1><span class="header-section-number">2</span> Git &amp; Github</h1>
+<p>This section is paired with:</p>
+<ul>
+<li><a href="http://bit.ly/r-wrangle-for-ioos">Data Wrangling in the R Tidyverse - Google Slides</a></li>
+</ul>
+<p>The two main tools you’ll learn about to start are:</p>
 <ul>
 <li><p><a href="https://git-scm.com/"><strong>Git</strong></a> is a version control system that lets you track changes to files over time. These files can be any kind of file (eg doc, pdf, xls), but free text differences are most easily visible (eg txt, csv, md). You can rollback changes made by you, or others. This facilitates a playground for collaboration, without fear of experimentation (you can always rollback changes).</p></li>
 <li><p><a href="https://github.com/"><strong>Github</strong></a> is a website for storing your git versioned files remotely. It has many nice features to be able visualize differences between <a href="https://help.github.com/articles/rendering-and-diffing-images/">images</a>, <a href="https://help.github.com/articles/mapping-geojson-files-on-github/">rendering</a> &amp; <a href="https://github.com/blog/1772-diffable-more-customizable-maps">diffing</a> map data files, <a href="https://help.github.com/articles/rendering-csv-and-tsv-data/">render text data files</a>, and <a href="https://help.github.com/articles/rendering-differences-in-prose-documents/">track changes in text</a>.</p></li>
@@ -343,11 +350,23 @@ This repository demonstrates **software** and _formats_:
 <li><a href="http://rmarkdown.rstudio.com">rmarkdown.rstudio.com</a></li>
 <li><a href="http://kbroman.org/knitr_knutshell/">knitr in a knutshell - Karl Broman</a></li>
 </ul>
+<p>A more advanced topic worth mentioning is dealing <a href="http://r-pkgs.had.co.nz/git.html#git-pull">merge conflicts</a></p>
 </div>
-<div id="merge-conflicts" class="section level2">
-<h2><span class="header-section-number">2.7</span> Merge Conflicts</h2>
-<p><a href="http://r-pkgs.had.co.nz/git.html#git-pull">merge conflicts</a></p>
+<div id="exercise-gils-israel-sites-dataset" class="section level2">
+<h2><span class="header-section-number">2.7</span> Exercise: Gil’s Israel Sites Dataset</h2>
+<p>Gil Rilov shared the following dataset for us to play with:</p>
+<ul>
+<li><a href="https://drive.google.com/open?id=0Bw_eQvipWCW_NkxHVk9sZ0ZPTU85QkRjRDdvT0FoSHZvUldR">Israel sites fall 2015-16.xlsx</a></li>
+</ul>
+<p>Please download and open this dataset. Your task is to investigate this dataset and prepare it for submission to OBIS.</p>
+<div id="task-provide-excel-cell-ranges-for-how-you-would-divide-data-into-tables" class="section level3">
+<h3><span class="header-section-number">2.7.1</span> Task: Provide Excel cell ranges for how you would divide data into tables?</h3>
+<p>For reading and wrangling data in R, please see cheat sheets and resources mentioned in:</p>
+<ul>
+<li><a href="http://bit.ly/r-wrangle-for-ioos">Data Wrangling in the R Tidyverse - Google Slides</a></li>
+</ul>
 
+</div>
 </div>
 </div>
             </section>

@@ -5,6 +5,12 @@ knitr::opts_chunk$set(echo = TRUE)
 library(htmltools)
 ```
 
+This section is paired with:
+
+- [Data Wrangling in the R Tidyverse - Google Slides](http://bit.ly/r-wrangle-for-ioos)
+
+The two main tools you'll learn about to start are:
+
 - [**Git**](https://git-scm.com/) is a version control system that lets you track changes to files over time. These files can be any kind of file (eg doc, pdf, xls), but free text differences are most easily visible (eg txt, csv, md). You can rollback changes made by you, or others. This facilitates a playground for collaboration, without fear of experimentation (you can always rollback changes).
 
 - [**Github**](https://github.com/) is a website for storing your git versioned files remotely. It has many nice features to be able visualize differences between [images](https://help.github.com/articles/rendering-and-diffing-images/), [rendering](https://help.github.com/articles/mapping-geojson-files-on-github/) & [diffing](https://github.com/blog/1772-diffable-more-customizable-maps) map data files, [render text data files](https://help.github.com/articles/rendering-csv-and-tsv-data/), and [track changes in text](https://help.github.com/articles/rendering-differences-in-prose-documents/).
@@ -172,8 +178,21 @@ For more on Rmarkdown:
 - [rmarkdown.rstudio.com](http://rmarkdown.rstudio.com)
 - [knitr in a knutshell - Karl Broman](http://kbroman.org/knitr_knutshell/)
 
-## Merge Conflicts
+A more advanced topic worth mentioning is dealing [merge conflicts](http://r-pkgs.had.co.nz/git.html#git-pull)
 
-[merge conflicts](http://r-pkgs.had.co.nz/git.html#git-pull)
+## Exercise: Gil's Israel Sites Dataset
+
+Gil Rilov shared the following dataset for us to play with:
+
+- [Israel sites fall 2015-16.xlsx](
+https://drive.google.com/open?id=0Bw_eQvipWCW_NkxHVk9sZ0ZPTU85QkRjRDdvT0FoSHZvUldR)
+
+Please download and open this dataset. Your task is to investigate this dataset and prepare it for submission to OBIS.
+
+### Task: Provide Excel cell ranges for how you would divide data into tables?
+
+For reading and wrangling data in R, please see cheat sheets and resources mentioned in:
+
+- [Data Wrangling in the R Tidyverse - Google Slides](http://bit.ly/r-wrangle-for-ioos)
 
 
