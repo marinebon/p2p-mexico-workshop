@@ -34,11 +34,11 @@ Dates: August 6-10, 2018
 
 ## Agenda
 
-- [P2P Workshop Agenda - google sheet](https://docs.google.com/spreadsheets/d/1QMHModieileMfDiyqffy3lD7usrLJ3hdWvqwj9rfNnw/edit#gid=0)
+- [P2P Workshop **Agenda** - google sheet](https://docs.google.com/spreadsheets/d/1QMHModieileMfDiyqffy3lD7usrLJ3hdWvqwj9rfNnw/edit#gid=0)
 
-- [P2P Workshop Notes - google doc](https://docs.google.com/document/d/1JJ-odaEEpDvV5MrNzRXPVBfJ5xb9abJYHDvllkgzqjM/edit?usp=sharing)
+- [P2P Workshop **Notes** - google doc](https://docs.google.com/document/d/1JJ-odaEEpDvV5MrNzRXPVBfJ5xb9abJYHDvllkgzqjM/edit?usp=sharing)
 
-- [P2P using OBIS - OceanTeacher.org](https://classroom.oceanteacher.org/course/view.php?id=349)
+- [P2P using OBIS **Course** - OceanTeacher.org](https://classroom.oceanteacher.org/course/view.php?id=349)
 
 
 ```{r, eval=F}
