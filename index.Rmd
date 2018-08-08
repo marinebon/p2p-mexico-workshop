@@ -40,6 +40,9 @@ Dates: August 6-10, 2018
 
 - [P2P using OBIS **Course** - OceanTeacher.org](https://classroom.oceanteacher.org/course/view.php?id=349)
 
+- [Participants **Folder** - google drive](https://drive.google.com/drive/u/0/folders/1729XN_2AZCKeDsS5drGiARNWur28aXFW)
+
+
 
 ```{r, eval=F}
 library(tidyverse)
