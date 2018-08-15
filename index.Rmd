@@ -143,6 +143,7 @@ The P2P workshop:
 The workshop targets investigators and resource managers dedicated to studying and conserving biodiversity of invertebrates in two important coastal habitats: rocky shore intertidal zone and sandy beaches. This activity targets participants from all nations in the Americas, from pole to pole.
 
 ## Instructors
+- Enrique Montes (USF) - Project lead and workshop coordinator
 - Eduardo Klein (OBIS) - Darwin Core (DwC) and OBIS tools
 - Ben Best (Ecoquants) - Data visualization and analysis tools using R software 
 - Patricia Miloslavich (GOOS) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
@@ -150,8 +151,9 @@ The workshop targets investigators and resource managers dedicated to studying a
 - Frank Muller-Karger (USF) - Satellite remote sensing
 - Maria Kavanaugh (OSU) - Satellite biogeography (seascape maps)
 - Maikon di Domenico (Universidade Federal do Paraná) - sandy beaches*
-- Pete Raimondi (UCSC – PISCO / MARINe)*
-(*waiting for confirmation)
+- Gil Rilov (Israel Oceanographic and Limnological Research) -  Ecology of the rocky shore intertidal zone
+- Brian Helmuth (Northeastern University, USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone
+- Fernando Lima (University of Porto) - Technological approaches for understanding environmental variability in rocky shores
 
 ## Required workshop materials
 
