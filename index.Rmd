@@ -147,7 +147,7 @@ The workshop targets investigators and resource managers dedicated to studying a
 - Eduardo Klein (OBIS) - Darwin Core (DwC) and OBIS tools
 - Ben Best (Ecoquants) - Data visualization and analysis tools using R software 
 - Patricia Miloslavich (GOOS) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
-- Emmett Duffy (MarineGEO) - Predation and fouling community development, exotic invasions and biodiversity - an experimental approach.
+- Emmett Duffy (MarineGEO) - Predation and fouling community development, exotic invasions and biodiversity - an experimental approach (PanAmex Experiment).
 - Frank Muller-Karger (USF) - Satellite remote sensing
 - Maria Kavanaugh (OSU) - Satellite biogeography (seascape maps)
 - Maikon di Domenico (Universidade Federal do Paraná) - sandy beaches*
