@@ -61,72 +61,44 @@
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; position: absolute; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; }
-pre.numberSource a.sourceLine:empty
-  { position: absolute; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
-    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {  }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 </style>
 
-<link rel="stylesheet" href="style/style.css" type="text/css" />
+<link rel="stylesheet" href="style\style.css" type="text/css" />
 </head>
 
 <body>
@@ -163,11 +135,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.3" data-path="git-github.html"><a href="git-github.html#create-repository-p2p-demo"><i class="fa fa-check"></i><b>2.3</b> Create Repository <code>p2p-demo</code></a><ul>
 <li class="chapter" data-level="2.3.1" data-path="git-github.html"><a href="git-github.html#edit-readme.md-in-markdown"><i class="fa fa-check"></i><b>2.3.1</b> Edit <code>README.md</code> in Markdown</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="git-github.html"><a href="git-github.html#create-index.html"><i class="fa fa-check"></i><b>2.4</b> Create <code>index.html</code></a></li>
-<li class="chapter" data-level="2.5" data-path="git-github.html"><a href="git-github.html#create-rstudio-project-with-git-repository"><i class="fa fa-check"></i><b>2.5</b> Create RStudio Project with Git Repository</a></li>
-<li class="chapter" data-level="2.6" data-path="git-github.html"><a href="git-github.html#create-index.rmd-in-rmarkdown"><i class="fa fa-check"></i><b>2.6</b> Create <code>index.Rmd</code> in Rmarkdown</a></li>
-<li class="chapter" data-level="2.7" data-path="git-github.html"><a href="git-github.html#exercise-gils-israel-sites-dataset"><i class="fa fa-check"></i><b>2.7</b> Exercise: Gil’s Israel Sites Dataset</a><ul>
-<li class="chapter" data-level="2.7.1" data-path="git-github.html"><a href="git-github.html#task-provide-excel-cell-ranges-for-how-you-would-divide-data-into-tables"><i class="fa fa-check"></i><b>2.7.1</b> Task: Provide Excel cell ranges for how you would divide data into tables?</a></li>
+<li class="chapter" data-level="2.4" data-path="git-github.html"><a href="git-github.html#introduction"><i class="fa fa-check"></i><b>2.4</b> Introduction</a></li>
+<li class="chapter" data-level="2.5" data-path="git-github.html"><a href="git-github.html#conclusion"><i class="fa fa-check"></i><b>2.5</b> Conclusion</a></li>
+<li class="chapter" data-level="2.6" data-path="git-github.html"><a href="git-github.html#create-index.html"><i class="fa fa-check"></i><b>2.6</b> Create <code>index.html</code></a></li>
+<li class="chapter" data-level="2.7" data-path="git-github.html"><a href="git-github.html#create-rstudio-project-with-git-repository"><i class="fa fa-check"></i><b>2.7</b> Create RStudio Project with Git Repository</a></li>
+<li class="chapter" data-level="2.8" data-path="git-github.html"><a href="git-github.html#create-index.rmd-in-rmarkdown"><i class="fa fa-check"></i><b>2.8</b> Create <code>index.Rmd</code> in Rmarkdown</a></li>
+<li class="chapter" data-level="2.9" data-path="git-github.html"><a href="git-github.html#exercise-gils-israel-sites-dataset"><i class="fa fa-check"></i><b>2.9</b> Exercise: Gil’s Israel Sites Dataset</a><ul>
+<li class="chapter" data-level="2.9.1" data-path="git-github.html"><a href="git-github.html#task-provide-excel-cell-ranges-for-how-you-would-divide-data-into-tables"><i class="fa fa-check"></i><b>2.9.1</b> Task: Provide Excel cell ranges for how you would divide data into tables?</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="participants.html"><a href="participants.html"><i class="fa fa-check"></i><b>3</b> Participants</a></li>
@@ -203,6 +177,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p><a href="https://docs.google.com/document/d/1JJ-odaEEpDvV5MrNzRXPVBfJ5xb9abJYHDvllkgzqjM/edit?usp=sharing">P2P Workshop <strong>Notes</strong> - google doc</a></p></li>
 <li><p><a href="https://classroom.oceanteacher.org/course/view.php?id=349">P2P using OBIS <strong>Course</strong> - OceanTeacher.org</a></p></li>
 <li><p><a href="https://drive.google.com/drive/u/0/folders/1729XN_2AZCKeDsS5drGiARNWur28aXFW">Participants <strong>Folder</strong> - google drive</a></p></li>
+<li><p><a href="https://drive.google.com/drive/u/0/folders/17PtNEq_6ekhHMa_ew_AQ9t6vYRiAyXFb">Instructors presentations <strong>Folder</strong> - google drive</a></p></li>
 </ul>
 </div>
 <div id="objectives" class="section level2">
@@ -214,23 +189,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Publish datasets to OBIS, using tools for sharing data;</li>
 <li>Train on data science tools (R, Rmarkdown, Github) to mine data, conduct discovery and analysis, and produce reproducible research documents with interactive visualizations onto the web.</li>
 </ol>
-<p><img src="figs/CEBIMar_pic.png" /></p>
+<div class="figure">
+<img src="figs/CEBIMar_pic.png" />
+
+</div>
 </div>
 <div id="logistics" class="section level2">
 <h2><span class="header-section-number">1.3</span> Logistics</h2>
 <p>August 6-10, 2018 (+2 days for travel)</p>
 <ul>
-<li><p>Venue, August 6: INPE <br>
-Opening of AmeriGEOSS Week <br>
-Instituto Nacional de Pesquisas Espaciais (INPE) <br>
-São José dos Campos, São Paulo, Brasil</p></li>
-<li><p>Venue, August 7-10: CEBIMar <br>
-Centro de Biologia Marinha (<a href="http://cebimar.usp.br/index.php/en/">CEBIMar</a>) - Universidade de São Paulo <br>
-Praia do Segredo - São Sebastião <br>
-São Paulo, Brasil</p></li>
+<li><p>Venue, August 6: INPE <br> Opening of AmeriGEOSS Week <br> Instituto Nacional de Pesquisas Espaciais (INPE) <br> São José dos Campos, São Paulo, Brasil</p></li>
+<li><p>Venue, August 7-10: CEBIMar <br> Centro de Biologia Marinha (<a href="http://cebimar.usp.br/index.php/en/">CEBIMar</a>) - Universidade de São Paulo <br> Praia do Segredo - São Sebastião <br> São Paulo, Brasil</p></li>
 </ul>
-<div id="htmlwidget-4cc8a386a3fc2be25ed6" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4cc8a386a3fc2be25ed6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"attributionControl":false},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":0.5,"zIndex":1,"detectRetina":false}]},{"method":"addAwesomeMarkers","args":[[-23.432513,-23.206662,-23.826741],[-46.478074,-45.861196,-45.423812],{"icon":["plane","rocket","home"],"markerColor":["green","orange","red"],"iconColor":"black","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"fa"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,["Guarulhos","INPE","CEBIMar"],{"interactive":false,"permanent":true,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-23.826741,-23.206662],"lng":[-46.478074,-45.423812]},"setView":[[-23.4886386666667,-45.9210273333333],9,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-619232ba6113aac4f19e" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-619232ba6113aac4f19e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"attributionControl":false},"calls":[{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":0.5,"zIndex":1,"detectRetina":false}]},{"method":"addAwesomeMarkers","args":[[-23.432513,-23.206662,-23.826741],[-46.478074,-45.861196,-45.423812],{"icon":["plane","rocket","home"],"markerColor":["green","orange","red"],"iconColor":"black","spin":false,"squareMarker":false,"iconRotate":0,"font":"monospace","prefix":"fa"},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,["Guarulhos","INPE","CEBIMar"],{"interactive":false,"permanent":true,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-23.826741,-23.206662],"lng":[-46.478074,-45.423812]},"setView":[[-23.4886386666667,-45.9210273333333],9,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="organizers" class="section level2">
 <h2><span class="header-section-number">1.4</span> Organizers</h2>
@@ -244,8 +216,7 @@ São Paulo, Brasil</p></li>
 </div>
 <div id="workshop-rationale" class="section level2">
 <h2><span class="header-section-number">1.5</span> Workshop rationale</h2>
-<p>This workshop is a first step for the implementation of the P2P network. It addresses capacity building and science development for conservation and management of living resources, to sustain critical ecosystem services for communities in the region. The workshop participants will develop standard protocols for field data collection, data formatting and publishing, following international standards (e.g. Darwin Core - DwC). Efforts will also focus on data discovery and analysis using tools provided by the Ocean Biogeographic Information System (OBIS) and the GEO BON MBON.
-P2P incorporates the biodiversity priorities of various GEO initiatives, including Blue Planet and AmeriGEOSS, and coordinates with IOC/UNESCO (GOOS and OBIS), and other national and international groups to serve the broadest possible community. This network will help nations and regions to improve conservation planning and environmental impact mitigation, serve the scientific community, and satisfy commitments to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDG’s).</p>
+<p>This workshop is a first step for the implementation of the P2P network. It addresses capacity building and science development for conservation and management of living resources, to sustain critical ecosystem services for communities in the region. The workshop participants will develop standard protocols for field data collection, data formatting and publishing, following international standards (e.g. Darwin Core - DwC). Efforts will also focus on data discovery and analysis using tools provided by the Ocean Biogeographic Information System (OBIS) and the GEO BON MBON. P2P incorporates the biodiversity priorities of various GEO initiatives, including Blue Planet and AmeriGEOSS, and coordinates with IOC/UNESCO (GOOS and OBIS), and other national and international groups to serve the broadest possible community. This network will help nations and regions to improve conservation planning and environmental impact mitigation, serve the scientific community, and satisfy commitments to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), Aichi Targets of the Convention of Biological Diversity (CBD), and the UN 2030 Agenda for Sustainable Development Goals (SDG’s).</p>
 <p>The P2P workshop:</p>
 <ul>
 <li>enhances coordination of data collection among nations;</li>
@@ -283,13 +254,15 @@ P2P incorporates the biodiversity priorities of various GEO initiatives, includi
 <p>These are available for Windows, Mac or Linux operating systems.</p></li>
 <li><p>Install additional packages by running the following line of code in your R terminal:</p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">source</span>(<span class="st">&quot;https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R&quot;</span>)</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">source</span>(<span class="st">&quot;https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R&quot;</span>)</code></pre></div>
 <ul>
-<li><p><a href="http://sarce.cbm.usb.ve/for-scientists/">SARCE sampling protocols</a>
-<!---The past experience could be replicated (and it will be desirable if we want to make comparison in time) see the SARCE site and it protocols. The SARCE data will be in OBIS after the next harvest. ---></p></li>
+<li><p><a href="http://sarce.cbm.usb.ve/for-scientists/">SARCE sampling protocols</a> <!---The past experience could be replicated (and it will be desirable if we want to make comparison in time) see the SARCE site and it protocols. The SARCE data will be in OBIS after the next harvest. ---></p></li>
 <li><p>Full snorkeling gear</p></li>
 </ul>
-<p><img src="figs/p2p-workshop-materials.png" /></p>
+<div class="figure">
+<img src="figs/p2p-workshop-materials.png" />
+
+</div>
 </div>
 <div id="eligibility" class="section level2">
 <h2><span class="header-section-number">1.8</span> Eligibility</h2>
@@ -322,7 +295,10 @@ Loading…
 <li><a href="https://cran.r-project.org/web/packages/dismo/vignettes/sdm.pdf">Species Distribution Modeling with R</a></li>
 </ul>
 <p>The project is supported by the National Aeronautics and Space Administration (NASA) grant 80NSSC18K0318, ” Laying the foundations of the Pole-to-Pole Marine Biodiversity Observation Network (MBON) of the Americas”</p>
-<p><img src="figs/NASA_logo.png" /></p>
+<div class="figure">
+<img src="figs/NASA_logo.png" />
+
+</div>
 
 </div>
 </div>
