@@ -1,5 +1,5 @@
-# p2p-brazil-workshop
-Pole-to-Pole MBON &amp; AmeriGEOSS Workshop in Brazil 2018-08
+# p2p-mexico-workshop
+MBON Pole-to-Pole &amp; AmeriGEOSS Workshop in Mexico 2019-04
 
 This website is generated using:
 
