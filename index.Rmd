@@ -81,7 +81,7 @@ This second workshop builds up on activities and achieved goals from a first mee
 
 April 2-5, 2019 (+2 days for travel)
 
-- Venue: 
+- **Venue:** 
 Playa del Secreto, Puerto Morelos <br>
 Unidad Académica de Sistemas Arrecifales ([UASA](https://www.icmyl.unam.mx/puerto_morelos/es/quienes-somos/la-unidad-academica)) <br>
 Instituto de Ciencias del Mar y Limnología (ICML) <br>
@@ -92,9 +92,9 @@ Quintana Roo, Mexico
 ```{r}
 pts <- tribble(
         ~lon,       ~lat,       ~name,    ~icon,   ~color,          ~description,                                ~comment,
-  -86.8736, 21.040300, "Cancun",  "plane",  "green",   "Cancun International Airport",                                      NA,
-  -86.945114, 20.775402,      "Playa del Secreto", "home", "orange", "Puerto Morelos", "venue for the MBON Pole to Pole workshop",
-  -86.867217, 20.868086,   "UASA",   "home",    "red",       "São Sebastião", "host institution for the P2P workshop") %>%
+  -86.8736, 21.040300, "Cancun International Airport",  "plane",  "green",   "Cancun International Airport",                                      NA,
+  -86.945114, 20.775402,      "Playa del Secreto", "red", "orange", "Puerto Morelos", "venue for the MBON Pole to Pole workshop",
+  -86.867217, 20.868086,   "UASA - UNAM",   "home",    "home",       "São Sebastião", "host institution for the P2P workshop") %>%
   st_as_sf(coords = c("lon", "lat"), crs = 4326)
 
 ctr <- pts$geometry %>% st_geometrycollection() %>% st_centroid() %>% st_coordinates()
@@ -109,7 +109,7 @@ leaflet(pts, options = leafletOptions(attributionControl=F)) %>%
   #addProviderTiles(provider = providers$Stamen.TonerLite) %>%
   addProviderTiles(provider = providers$Esri.NatGeoWorldMap, options = tileOptions(opacity=0.5)) %>%
   addAwesomeMarkers(icon = icons, label= ~name, labelOptions = labelOptions(noHide = T)) %>%
-  setView(ctr[,"X"], ctr[,"Y"], zoom=9)
+  setView(ctr[,"X"], ctr[,"Y"], zoom=10)
 ```
 
 
