@@ -93,8 +93,8 @@ Quintana Roo, Mexico
 pts <- tribble(
         ~lon,       ~lat,       ~name,    ~icon,   ~color,          ~description,                                ~comment,
   -86.8736, 21.040300, "Cancun International Airport",  "plane",  "green",   "Cancun International Airport",                                      NA,
-  -86.945114, 20.775402,      "Playa del Secreto", "red", "orange", "Puerto Morelos", "venue for the MBON Pole to Pole workshop",
-  -86.867217, 20.868086,   "UASA - UNAM",   "home",    "home",       "São Sebastião", "host institution for the P2P workshop") %>%
+  -86.945114, 20.775402,      "Playa del Secreto", "home", "red", "Puerto Morelos", "venue for the MBON Pole to Pole workshop",
+  -86.867217, 20.868086,   "UASA - UNAM", "rocket", "orange", "Pto Morelos", "host institution for the P2P workshop") %>%
   st_as_sf(coords = c("lon", "lat"), crs = 4326)
 
 ctr <- pts$geometry %>% st_geometrycollection() %>% st_centroid() %>% st_coordinates()
