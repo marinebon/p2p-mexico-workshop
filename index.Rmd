@@ -1,5 +1,7 @@
 --- 
 title: "2nd Marine Biodiversity Workshop: from the Sea to the Cloud"
+#place: "Puerto Morelos, Mexico" 
+date: "April 1-5, 2019"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -74,7 +76,7 @@ This second workshop builds up on activities and achieved goals from a first mee
 1. Publish these datasets to Ocean Biogeographic Information System (OBIS) using tools for sharing data;
 1. Advance knowledge on data science tools (R, Rmarkdown, Github) to mine data, visualize and analysis, and produce reproducible research documents with interactive visualizations onto the web.
 
-![](figs/Cozumel_Sep2016.jpg)
+![Rocky shore near workshop venue](figs/Cozumel_Sep2016.jpg)
 
 ## Logistics
 
@@ -167,7 +169,7 @@ source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/s
 
 - Full snorkeling gear
 
-![](figs/Cozumel_Sep2016_4.jpg)
+![Rocky shore near workshop venue](figs/Cozumel_Sep2016_4.jpg)
 
 ## Eligibility
 
