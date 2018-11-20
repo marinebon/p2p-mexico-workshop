@@ -1,6 +1,5 @@
 --- 
 title: "2nd Marine Biodiversity Workshop: from the Sea to the Cloud"
-#place: "Puerto Morelos, Mexico" 
 date: "April 1-5, 2019"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
