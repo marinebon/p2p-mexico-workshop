@@ -176,13 +176,13 @@ The workshop will be limited to 30 participants. Selection of participants will 
 
 ## Survey
 
-In order to partcipate, you will need to complete survey below (be sure to scroll down within frame), or by visiting the survey directly at https://goo.gl/forms/AIQ9djKDfyfpKuaE3, before the survey deadline of **May 1st, 2018**.
+In order to partcipate, you will need to complete survey below (be sure to scroll down within frame), or by visiting the survey directly at https://goo.gl/forms/e8luOKT4lOkeunQq1, before the survey deadline of **December 27, 2018**.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8kMPaCnFBPP4P3Hk5F6VbImektTDo9LNQZUUxuYUPxIlo_Q/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="hhttps://docs.google.com/forms/d/e/1FAIpQLSeveU_tCWJLHRfEnl_H17TrY9F2a1ynrjJiT22snm3pJ2Dw0A/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Confirmation
 
-Candidates will receive notice of acceptance by December 27th, 2018. Selected participants must confirm attendance to the workshop by replying to the acceptance notification email before January 25, 2019.
+Candidates will receive notice of acceptance by January 17th, 2018. Selected participants must confirm attendance to the workshop by replying to the acceptance notification email before February 1st, 2019.
 
 The workshop will provide partial or full travel support to a selected number of participants. Priority for travel suppor will be given to participants that conducted biodiversity surveys before December 31, 2018.  
 
@@ -200,5 +200,8 @@ The project is supported by the National Aeronautics and Space Administration (N
 
 ![](figs/NASA_logo.png)
 
-
+![](figs/MBON_logo.jpg)
+<br>
+<br>
 ![](figs/amerigeoss_800.png)
+
