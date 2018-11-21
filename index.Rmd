@@ -35,7 +35,7 @@ Dates: April 1-5, 2019
 
 ## Report from the previous workshop 
 
-- [P2P MBON Workshop Report **Folder** - google drive](https://drive.google.com/file/d/1XOC1hcg8GRwNxDcfNav4p7bKX7QYVVNb/view?usp=sharing)
+- [MBON Pole to Pole Marine Biodiversity: from the Sea to the Cloud  - **Report**](https://drive.google.com/file/d/1XOC1hcg8GRwNxDcfNav4p7bKX7QYVVNb/view?usp=sharing)
 
 
 ```{r, eval=F}
