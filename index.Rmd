@@ -172,7 +172,7 @@ source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/s
 
 ## Eligibility
 
-The workshop will be limited to 30 participants. Selection of participants will be based on survey results and their ability and willingness to openly contribute and share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the P2P network. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed in the first workshop and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if they provide specific information about the type of dataset, study site location, time of collection and employed methods.  
+The workshop will be limited to 20 participants. Selection of participants will be based on survey results and their ability and willingness to openly contribute and share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the P2P network. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed in the first workshop and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if they provide specific information about the type of dataset, study site location, time of collection and employed methods.  
 
 ## Survey
 
@@ -182,9 +182,9 @@ In order to partcipate, you will need to complete survey below (be sure to scrol
 
 ## Confirmation
 
-Candidates will receive notice of acceptance by January 17th, 2018. Selected participants must confirm attendance to the workshop by replying to the acceptance notification email before February 1st, 2019.
+The application deadline is **December 27, 2018**, at midnight (EST). Candidates will receive notice of acceptance by **January 17th, 2019**. Selected participants must confirm attendance to the workshop by replying to the acceptance notification email before **February 1st, 2019**.
 
-The workshop will provide partial or full travel support to a selected number of participants. Priority for travel suppor will be given to participants that conducted biodiversity surveys before December 31, 2018.  
+The workshop will provide partial or full travel support to a selected number of participants. Priority for travel suppor will be given to participants that conducted biodiversity surveys **before December 31, 2018**.  
 
 ## Resources
 
