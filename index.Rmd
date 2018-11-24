@@ -141,12 +141,13 @@ The workshop targets investigators and resource managers dedicated to studying a
 - Ben Best (Ecoquants) - Data wrangling, visualization and analysis with R software, collaborative research platforms (Github, Git, RMarkdown) 
 - Patricia Miloslavich (GOOS) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
 - Frank Muller-Karger (USF) - Satellite remote sensing
-- Sergio Cerdeira (CONABIO) - Sistema de Información y Análisis de Ecosistemas Marinos de México ([SIMAR](https://simar.conabio.gob.mx/))
-- Maria Kavanaugh (OSU) - Satellite biogeography (seascape maps)
-- Maikon di Domenico (Universidade Federal do Paraná) - sandy beaches*
-- Gil Rilov (Israel Oceanographic and Limnological Research) -  Ecology of the rocky shore intertidal zone*
-- Brian Helmuth (Northeastern University, USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone*
-- Fernando Lima (University of Porto) - Technological approaches for understanding environmental variability in rocky shores*
+- Sergio Cerdeira (CONABIO) - Sistema de Información y Análisis de Ecosistemas Marinos de México ([SIMAR](https://simar.conabio.gob.mx/))**
+- Maria Kavanaugh (OSU) - Satellite biogeography (seascape maps)**
+- Gil Rilov (Israel Oceanographic and Limnological Research) -  Ecology of the rocky shore intertidal zone**
+- Brian Helmuth (Northeastern University, USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone**
+- Fernando Lima (University of Porto) - Technological approaches for understanding environmental variability in rocky shores**
+
+** **To be confirmed **
 
 ## Required workshop materials
 
@@ -209,4 +210,5 @@ The project is supported by the National Aeronautics and Space Administration (N
 ![](figs/GOOS_Biology-and-Ecosystems_WhiteUNFRAMED_logo.png)
 
 ![](figs/obis_logo.jpg)
-
+<br>
+![](figs/WoRMS_logo_blue.png)
