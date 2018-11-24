@@ -204,4 +204,9 @@ The project is supported by the National Aeronautics and Space Administration (N
 <br>
 <br>
 ![](figs/amerigeoss_800.png)
+<br>
+<br>
+![](figs/GOOS_Biology-and-Ecosystems_WhiteUNFRAMED_logo.png)
+
+![](figs/obis_logo.jpg)
 
