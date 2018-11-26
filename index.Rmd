@@ -94,7 +94,7 @@ pts <- tribble(
         ~lon,       ~lat,       ~name,    ~icon,   ~color,          ~description,                                ~comment,
   -86.8736, 21.040300, "Cancun International Airport",  "plane",  "green",   "Cancun International Airport",                                      NA,
   -86.945114, 20.775402,      "Playa del Secreto", "home", "red", "venue for the MBON Pole to Pole workshop", NA,
-  -86.867217, 20.868086,   "UASA - UNAM", "rocket", "orange",  "host institution for the P2P workshop", NA) %>%
+  -86.867217, 20.868086,   "UASA - UNAM", "rocket", "orange",  "host institution for the MBON Pole to Pole workshop", NA) %>%
   st_as_sf(coords = c("lon", "lat"), crs = 4326)
 
 ctr <- pts$geometry %>% st_geometrycollection() %>% st_centroid() %>% st_coordinates()
@@ -173,7 +173,7 @@ source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/s
 
 ## Eligibility
 
-The workshop will be limited to 20 participants. Selection of participants will be based on survey results and their ability and willingness to openly contribute and share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the P2P network. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed in the first workshop and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if they provide specific information about the type of dataset, study site location, time of collection and employed methods.  
+The workshop will be limited to 20 participants. Selection of participants will be based on survey results and their ability and willingness to openly contribute and share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the MBON Pole to Pole. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed in the first workshop and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if they provide specific information about the type of dataset, study site location, time of collection and employed methods.  
 
 ## Survey
 
