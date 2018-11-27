@@ -118,7 +118,8 @@ leaflet(pts, options = leafletOptions(attributionControl=F)) %>%
 -	Marine Biodiversity Observation Network (MBON) Pole to Pole of the Americas - MBON Pole to Pole
 -	Instituto de Ciencias Marinas y Limnológicas, Universidad Nacional Autónoma de México (ICML - UNAM)
 -	AmeriGEOSS - Group on Earth Observations
--	Ocean Biogeographic Information System (OBIS)
+-	Ocean Biogeographic Information System (OBIS; IOC-UNESCO)
+- Global Ocean Observing System (GOOS; IOC-UNESCO)
 
 ## Workshop rationale
 
@@ -207,8 +208,14 @@ The project is supported by the National Aeronautics and Space Administration (N
 ![](figs/amerigeoss_800.png)
 <br>
 <br>
+![](figs/BannerAvisoComunidadICML.jpg)
+<br>
+<br>
 ![](figs/GOOS_Biology-and-Ecosystems_WhiteUNFRAMED_logo.png)
-
+<br>
 ![](figs/obis_logo.jpg)
 <br>
 ![](figs/WoRMS_logo_blue.png)
+<br>
+<br>
+![](figs/IOC_logo.png)
