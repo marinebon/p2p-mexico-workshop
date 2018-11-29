@@ -178,7 +178,7 @@ source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/s
 
 ## Eligibility
 
-The workshop will be limited to 20 participants. Selection of participants will be based on survey results and their ability and willingness to openly contribute and share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the MBON Pole to Pole. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed during this workshop and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if they provide specific information about the type of dataset, study site location, time span of their dataset and methods employed.
+The workshop will be limited to 20 participants. Selection of participants will be based on results from the Application Survey and their ability and willingness to openly share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the MBON Pole to Pole. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed during this activity and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if specific information about their dataset is provided, study site(s) location(s), time span of their dataset and methods employed.
 
 ## Survey
 
