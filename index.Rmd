@@ -167,8 +167,10 @@ The workshop targets investigators and resource managers dedicated to studying a
 source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R")
 ```
 
-- [SARCE sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
+- [SARCE Rocky SHore sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
   <!---The past experience could be replicated (and it will be desirable if we want to make comparison in time) see the SARCE site and it protocols. The SARCE data will be in OBIS after the next harvest. --->
+
+- [MBON Pole to Pole Sandy Beach sampling protocol](https://marinebon.github.io/p2p/methods_field_protocols.html)
 
 - Full snorkeling gear
 
