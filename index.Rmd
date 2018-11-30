@@ -1,6 +1,6 @@
 --- 
 title: "2nd Marine Biodiversity Workshop: from the Sea to the Cloud"
-date: "April 1-5, 2019"
+date: "April 2-5, 2019"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -29,7 +29,7 @@ opts_chunk$set(echo = F)
 
 Pole-to-Pole [MBON](marinebon.org) & [AmeriGEOSS](https://www.amerigeoss.org) <br>
 Location: Playa del Secreto, Puerto Morelos, Mexico <br>
-Dates: April 1-5, 2019
+Dates: April 2-5, 2019
 
 # Overview
 
@@ -84,8 +84,8 @@ April 2-5, 2019 (+2 days for travel)
 - **Venue:** 
 Playa del Secreto, Puerto Morelos <br>
 Unidad Académica de Sistemas Arrecifales ([UASA](https://www.icmyl.unam.mx/puerto_morelos/es/quienes-somos/la-unidad-academica)) <br>
-Instituto de Ciencias del Mar y Limnología (ICML) <br>
-Universidad Nacional Autónoma de México (UNAM) <br>
+Instituto de Ciencias del Mar y Limnología ([ICML](https://www.icmyl.unam.mx/)) <br>
+Universidad Nacional Autónoma de México ([UNAM](https://www.unam.mx/)) <br>
 Puerto Morelo <br> 
 Quintana Roo, Mexico
 
@@ -115,11 +115,12 @@ leaflet(pts, options = leafletOptions(attributionControl=F)) %>%
 
 ## Organizers
 
--	Marine Biodiversity Observation Network (MBON) Pole to Pole of the Americas - MBON Pole to Pole
--	Instituto de Ciencias Marinas y Limnológicas, Universidad Nacional Autónoma de México (ICML - UNAM)
+-	Marine Biodiversity Observation Network ([MBON](http://www.marinebon.org/)) Pole to Pole of the Americas - MBON Pole to Pole
+-	Instituto de Ciencias Marinas y Limnológicas, Universidad Nacional Autónoma de México ([ICML](https://www.icmyl.unam.mx/) - UNAM)
 -	AmeriGEOSS - Group on Earth Observations
--	Ocean Biogeographic Information System (OBIS; IOC-UNESCO)
-- Global Ocean Observing System (GOOS; IOC-UNESCO)
+-	Ocean Biogeographic Information System ([OBIS](http://www.iobis.org/); IOC-UNESCO)
+- Global Ocean Observing System ([GOOS](http://www.goosocean.org/); IOC-UNESCO)
+- Atlantic International Research Centre ([AIR Centre](https://www.aircentre.org/))
 
 ## Workshop rationale
 
@@ -137,16 +138,17 @@ The MBON Pole to Pole workshops:
 The workshop targets investigators and resource managers dedicated to studying and conserving biodiversity of invertebrates in two important coastal habitats: rocky shore intertidal zone and sandy beaches. This activity targets participants from all nations in the Americas, from pole to pole.
 
 ## Instructors
-- Enrique Montes (USF) - Project lead and workshop coordinator
-- Eduardo Klein (OBIS) - Darwin Core (DwC), WoRMS species catalog for taxonomic quality control, and OBIS tools
-- Ben Best (Ecoquants) - Data wrangling, visualization and analysis with R software, collaborative research platforms (Github, Git, RMarkdown) 
-- Patricia Miloslavich (GOOS) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
-- Frank Muller-Karger (USF) - Satellite remote sensing
-- Sergio Cerdeira (CONABIO) - Sistema de Información y Análisis de Ecosistemas Marinos de México ([SIMAR](https://simar.conabio.gob.mx/))**
-- Maria Kavanaugh (OSU) - Satellite biogeography (seascape maps)**
-- Gil Rilov (Israel Oceanographic and Limnological Research) -  Ecology of the rocky shore intertidal zone**
-- Brian Helmuth (Northeastern University, USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone**
-- Fernando Lima (University of Porto) - Technological approaches for understanding environmental variability in rocky shores**
+- Enrique Montes ([IMaRS](http://imars.usf.edu/); USF) - Project lead and workshop coordinator
+- Eduardo Klein ([OBIS](http://iobis.org/)) - Darwin Core (DwC), WoRMS species catalog for taxonomic quality control, and OBIS tools
+- Ben Best ([Ecoquants](https://ecoquants.com/)) - Data wrangling, visualization and analysis with R software, collaborative research platforms (Github, Git, RMarkdown) 
+- Abigail Benson ([OBIS-USA](https://www.usgs.gov/core_science_systems/sas/obis-usa); USGS)
+- Patricia Miloslavich ([GOOS Biology & Ecosystem Panel](http://goosocean.org/index.php?option=com_content&view=article&id=79&Itemid=273)) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
+- Frank Muller-Karger ([IMaRS](http://imars.usf.edu/); USF) - Satellite remote sensing
+- Sergio Cerdeira ([CONABIO](https://www.gob.mx/conabio)) - Sistema de Información y Análisis de Ecosistemas Marinos de México ([SIMAR](https://simar.conabio.gob.mx/))**
+- Maria Kavanaugh ([OSU](http://ceoas.oregonstate.edu/profile/kavanaugh/), USA) - Satellite biogeography (seascape maps)**
+- Gil Rilov ([Israel Oceanographic and Limnological Research](http://www.ocean.org.il/eng/Researchers/page_gil.asp), Israel) -  Ecology of the rocky shore intertidal zone**
+- Brian Helmuth ([Northeastern University](https://cos.northeastern.edu/faculty/brian-helmuth/), USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone**
+- Fernando Lima ([CIBIO](https://cibio.up.pt/people/details/fslima) - University of Porto) - Technological approaches for understanding environmental variability in rocky shores**
 
 ** **To be confirmed **
 
@@ -165,8 +167,10 @@ The workshop targets investigators and resource managers dedicated to studying a
 source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R")
 ```
 
-- [SARCE sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
+- [SARCE Rocky SHore sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
   <!---The past experience could be replicated (and it will be desirable if we want to make comparison in time) see the SARCE site and it protocols. The SARCE data will be in OBIS after the next harvest. --->
+
+- [MBON Pole to Pole Sandy Beach sampling protocol](https://marinebon.github.io/p2p/methods_field_protocols.html)
 
 - Full snorkeling gear
 
@@ -174,7 +178,7 @@ source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/s
 
 ## Eligibility
 
-The workshop will be limited to 20 participants. Selection of participants will be based on survey results and their ability and willingness to openly contribute and share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the MBON Pole to Pole. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed in the first workshop and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if they provide specific information about the type of dataset, study site location, time of collection and employed methods.  
+The workshop will be limited to 20 participants. Selection of participants will be based on results from the Application Survey and their ability and willingness to openly share data through OBIS, sustain a collaborative long-term monitoring program in their study area, share best practices and contribute to achieving the overall goals of the MBON Pole to Pole. Priority will be given to participants of the previous workshop that conducted biodiversity surveys at their study sites as agreed during this activity and that have submitted data sheets to the MBON Pole to Pole Github repository. Applicants willing to use and share their own data are also eligible if specific information about their dataset is provided, study site(s) location(s), time span of their dataset and methods employed.
 
 ## Survey
 
@@ -215,7 +219,7 @@ The project is supported by the National Aeronautics and Space Administration (N
 <br>
 ![](figs/obis_logo.jpg)
 <br>
-![](figs/WoRMS_logo_blue.png)
-<br>
 <br>
 ![](figs/IOC_logo.png)
+<br>
+![](figs/aircentre_logo.png)
