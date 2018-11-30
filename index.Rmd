@@ -67,7 +67,7 @@ if (is_latex_output()){
 
 ## Objectives
 
-This second workshop builds up on activities and achieved goals from a first meeting in Sao Sebastiao, Brazil, in August this year. The purpose is to continue the development of a community of practice dedicated to understanding change in marine biodiversity and developing conservation and management strategies of marine living resources by engaging researchers, managers and policy-makers with interest in biodiversity monitoring and data synthesis and analysis. During this workshop participants will:
+This second workshop builds up on activities and achieved goals from a first meeting in Sao Sebastiao, Brazil, August 6-10, 2018. The purpose is to continue the development of a community of practice dedicated to understanding change in marine biodiversity and developing conservation and management strategies of marine living resources by engaging researchers, managers and policy-makers with interest in biodiversity monitoring and data synthesis and analysis. During this workshop participants will:
 
 1. Advance already agreed field sampling protocols for rocky shores and sandy beaches;
 1. Manipulate tabular and spatial data already collected at their study sites for standardized data formats using Darwin Core vocabularies and quality controls;
