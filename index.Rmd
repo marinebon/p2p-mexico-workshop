@@ -147,7 +147,7 @@ The workshop targets investigators and resource managers dedicated to studying a
 - Sergio Cerdeira ([CONABIO](https://www.gob.mx/conabio)) - Sistema de Información y Análisis de Ecosistemas Marinos de México ([SIMAR](https://simar.conabio.gob.mx/))**
 - Maria Kavanaugh ([OSU](http://ceoas.oregonstate.edu/profile/kavanaugh/), USA) - Satellite biogeography (seascape maps)**
 - Gil Rilov ([Israel Oceanographic and Limnological Research](http://www.ocean.org.il/eng/Researchers/page_gil.asp), Israel) -  Ecology of the rocky shore intertidal zone**
-- Brian Helmuth ([Northeastern University](https://cos.northeastern.edu/faculty/brian-helmuth/), USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone**
+- Brian Helmuth ([Northeastern University](https://cos.northeastern.edu/faculty/brian-helmuth/), USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone
 - Fernando Lima ([CIBIO](https://cibio.up.pt/people/details/fslima) - University of Porto) - Technological approaches for understanding environmental variability in rocky shores**
 
 ** **To be confirmed **
