@@ -144,13 +144,11 @@ The workshop targets investigators and resource managers dedicated to studying a
 - Abigail Benson ([OBIS-USA](https://www.usgs.gov/core_science_systems/sas/obis-usa); USGS) - Darwin Core (DwC)**
 - Patricia Miloslavich ([GOOS Biology & Ecosystem Panel](http://goosocean.org/index.php?option=com_content&view=article&id=79&Itemid=273)) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
 - Frank Muller-Karger ([IMaRS](http://imars.usf.edu/); USF) - Satellite remote sensing
-- Sergio Cerdeira ([CONABIO](https://www.gob.mx/conabio)) - Sistema de Información y Análisis de Ecosistemas Marinos de México ([SIMAR](https://simar.conabio.gob.mx/))**
-- Maria Kavanaugh ([OSU](http://ceoas.oregonstate.edu/profile/kavanaugh/), USA) - Satellite biogeography (seascape maps)**
-- Gil Rilov ([Israel Oceanographic and Limnological Research](http://www.ocean.org.il/eng/Researchers/page_gil.asp), Israel) -  Ecology of the rocky shore intertidal zone**
+- Maria Kavanaugh ([OSU](http://ceoas.oregonstate.edu/profile/kavanaugh/), USA) - Satellite biogeography (seascape maps)
+- Gil Rilov ([Israel Oceanographic and Limnological Research](http://www.ocean.org.il/eng/Researchers/page_gil.asp), Israel) -  Ecology of the rocky shore intertidal zone
 - Brian Helmuth ([Northeastern University](https://cos.northeastern.edu/faculty/brian-helmuth/), USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone
-- Fernando Lima ([CIBIO](https://cibio.up.pt/people/details/fslima) - University of Porto) - Technological approaches for understanding environmental variability in rocky shores**
+- Fernando Lima ([CIBIO](https://cibio.up.pt/people/details/fslima) - University of Porto) - Technological approaches for understanding environmental variability in rocky shores
 
-** **To be confirmed **
 
 ## Required workshop materials
 
@@ -167,7 +165,7 @@ The workshop targets investigators and resource managers dedicated to studying a
 source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/scripts/install-R-packages.R")
 ```
 
-- [SARCE Rocky SHore sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
+- [SARCE Rocky Shore sampling protocols](http://sarce.cbm.usb.ve/for-scientists/)
   <!---The past experience could be replicated (and it will be desirable if we want to make comparison in time) see the SARCE site and it protocols. The SARCE data will be in OBIS after the next harvest. --->
 
 - [MBON Pole to Pole Sandy Beach sampling protocol](https://marinebon.github.io/p2p/methods_field_protocols.html)
