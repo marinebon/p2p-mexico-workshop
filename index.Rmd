@@ -33,9 +33,15 @@ Dates: April 2-5, 2019
 
 # Overview
 
-## Report from the previous workshop 
+## Previous workshop and other useful information
 
-- [MBON Pole to Pole Marine Biodiversity: from the Sea to the Cloud  - **Report**](https://drive.google.com/file/d/1XOC1hcg8GRwNxDcfNav4p7bKX7QYVVNb/view?usp=sharing)
+- [MBON Pole to Pole Marine Biodiversity: from the Sea to the Cloud  - **Report from Brazil**](https://drive.google.com/file/d/1XOC1hcg8GRwNxDcfNav4p7bKX7QYVVNb/view?usp=sharing)
+
+- [Participants list](https://drive.google.com/file/d/18QkKpxDPEfi8OzRujfKaXJabBczX-7g7/view?usp=sharing)
+
+- [Itineraries of participants](https://docs.google.com/spreadsheets/d/1rRAfctShJIyPmOwu7GATYSiTwyOr_DHdQl-j5gO44mU/edit#gid=1548909322)
+
+- [Agenda](https://drive.google.com/file/d/18porVMMxrnEg8i0qsF4zFhNAAQWNLhxo/view?usp=sharing)
 
 
 ```{r, eval=F}
