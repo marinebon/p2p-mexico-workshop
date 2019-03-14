@@ -145,15 +145,17 @@ The workshop targets investigators and resource managers dedicated to studying a
 
 ## Instructors
 - Enrique Montes ([IMaRS](http://imars.usf.edu/); USF) - Project lead and workshop coordinator
-- Eduardo Klein ([OBIS](http://iobis.org/)) - Darwin Core (DwC), WoRMS species catalog for taxonomic quality control, and OBIS tools
-- Ben Best ([Ecoquants](https://ecoquants.com/)) - Data wrangling, visualization and analysis with R software, collaborative research platforms (Github, Git, RMarkdown) 
-- Abigail Benson ([OBIS-USA](https://www.usgs.gov/core_science_systems/sas/obis-usa); USGS) - Darwin Core (DwC)**
 - Patricia Miloslavich ([GOOS Biology & Ecosystem Panel](http://goosocean.org/index.php?option=com_content&view=article&id=79&Itemid=273)) - Protocols of the South American Research Group on Coastal Ecosystems (SARCE) and Essential Ocean/Biodiversity Variables (EOV/EBV) framework
-- Frank Muller-Karger ([IMaRS](http://imars.usf.edu/); USF) - Satellite remote sensing
 - Maria Kavanaugh ([OSU](http://ceoas.oregonstate.edu/profile/kavanaugh/), USA) - Satellite biogeography (seascape maps)
+- Eduardo Klein ([OBIS](http://iobis.org/)) - Darwin Core (DwC), WoRMS species catalog for taxonomic quality control, and OBIS tools
+- Ben Best ([Ecoquants](https://ecoquants.com/)) - Data wrangling, visualization and analysis with R software, collaborative research platforms (Github, Git, RMarkdown)
+- Jonathan Lefchek ([MarineGEO - Smithsonian I.](https://jonlefcheck.net/)) - Data science tools for seagrass ecology and biodiversity
+- Abigail Benson ([OBIS-USA](https://www.usgs.gov/core_science_systems/sas/obis-usa); USGS) - Darwin Core (DwC)**
+- Sennai Habtes ([UVI](https://www.uvi.edu/directory/profiles/staff/habtes-sennai-y.aspx)) - Statistical applications in coastal ecology and biodiversity assessments
+- Frank Muller-Karger ([IMaRS](http://imars.usf.edu/); USF) - Satellite remote sensing
 - Gil Rilov ([Israel Oceanographic and Limnological Research](http://www.ocean.org.il/eng/Researchers/page_gil.asp), Israel) -  Ecology of the rocky shore intertidal zone
 - Brian Helmuth ([Northeastern University](https://cos.northeastern.edu/faculty/brian-helmuth/), USA) - Drivers of biodiversity variability and change in the rocky shore intertidal zone
-- Fernando Lima ([CIBIO](https://cibio.up.pt/people/details/fslima) - University of Porto) - Technological approaches for understanding environmental variability in rocky shores
+- Rui Seabra ([CIBIO](https://cibio.up.pt/people/details/rseabra) - University of Porto) - [Biomimetic sensor](http://www.electricblue.eu/products/) data for understanding environmental variability in rocky shores and impact on biodiversity
 
 
 ## Required workshop materials
