@@ -178,6 +178,8 @@ source("https://raw.githubusercontent.com/marinebon/p2p-brazil-workshop/master/s
 
 - [MBON Pole to Pole Sandy Beach sampling protocol](https://marinebon.github.io/p2p/methods_field_protocols.html)
 
+- [Step-by-step taxonomy quality control with WoRMS](https://drive.google.com/file/d/1PoHpqUZsbz0OVcIyN1E8JtteyRC3370Q/view?usp=sharing)
+
 - Full snorkeling gear
 
 ![Rocky shore near workshop venue](figs/Cozumel_Sep2016_4.jpg)
