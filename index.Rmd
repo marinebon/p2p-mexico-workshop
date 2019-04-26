@@ -33,7 +33,7 @@ Dates: April 2-5, 2019
 
 # Overview
 
-## Previous workshop and other useful information
+## Workshop materials and outputs
 
 - [MBON Pole to Pole Marine Biodiversity: from the Sea to the Cloud  - **Report from Brazil**](https://drive.google.com/file/d/1XOC1hcg8GRwNxDcfNav4p7bKX7QYVVNb/view?usp=sharing)
 
@@ -44,6 +44,8 @@ Dates: April 2-5, 2019
 - [Course materials on Ocean Teacher Global Academy](https://classroom.oceanteacher.org/course/view.php?id=383)
 
 - [Agenda](https://drive.google.com/file/d/18porVMMxrnEg8i0qsF4zFhNAAQWNLhxo/view?usp=sharing)
+
+- [360 Virtual Tour at workshop site](http://www.northeastern.edu/helmuthlab/cancun.html)
 
 
 ```{r, eval=F}
