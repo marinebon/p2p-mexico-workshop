@@ -35,17 +35,16 @@ Dates: April 2-5, 2019
 
 ## Workshop materials and outputs
 
-- [MBON Pole to Pole Marine Biodiversity: from the Sea to the Cloud  - **Report from Brazil**](https://drive.google.com/file/d/1XOC1hcg8GRwNxDcfNav4p7bKX7QYVVNb/view?usp=sharing)
+- [2nd Marine Biodiversity Worshop: from the Sea to the Cloud  - **Report from Mexico**](https://drive.google.com/file/d/1ayIPQWNORppACXKcnKn0kPuvAr_6fTCX/view?usp=sharing)
 
 - [Participants list](https://drive.google.com/file/d/18QkKpxDPEfi8OzRujfKaXJabBczX-7g7/view?usp=sharing)
 
-- [Itineraries of participants](https://docs.google.com/spreadsheets/d/1rRAfctShJIyPmOwu7GATYSiTwyOr_DHdQl-j5gO44mU/edit#gid=1548909322)
+- [Agenda](https://drive.google.com/file/d/18porVMMxrnEg8i0qsF4zFhNAAQWNLhxo/view?usp=sharing)
 
 - [Course materials on Ocean Teacher Global Academy](https://classroom.oceanteacher.org/course/view.php?id=383)
 
-- [Agenda](https://drive.google.com/file/d/18porVMMxrnEg8i0qsF4zFhNAAQWNLhxo/view?usp=sharing)
-
 - [360 Virtual Tour at workshop site](http://www.northeastern.edu/helmuthlab/cancun.html)
+
 
 
 ```{r, eval=F}
